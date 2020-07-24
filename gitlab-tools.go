@@ -136,7 +136,7 @@ func init() {
 	flag.StringVar(&config.source, "source", "http://172.17.12.184/", "")
 	flag.StringVar(&config.target, "target", "http://10.1.7.196/", "")
 	flag.StringVar(&config.sToken, "source-token", "6z6AdxxA2rg1puyNYQsw", "")
-	flag.StringVar(&config.tToken, "target-token", "j9s3YZXnamsft5Khqdeq", "")
+	flag.StringVar(&config.tToken, "target-token", "XXXXXXXXXXXXXXXXXXXX", "")
 	flag.StringVar(&config.pid, "project-id", "hunks/xiwangzuang", "target project id")
 	flag.BoolVar(&config.copyIssues, "copy-issues", false, "")
 	flag.BoolVar(&config.copySnippets, "copy-snippets", false, "")
